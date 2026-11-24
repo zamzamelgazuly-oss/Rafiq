@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet"href="index.css">
+  <title>Doucument</title>
+  
+  <title>رفيق المذاكرة - Study Planner</title>
+</head>
+<body>
+
+  <!-- شريط التنقل العلوي -->
+  <nav>
+    <h2>رفيق المذاكرة — Study Planner</h2>
+    <ul>
+      <li><a href="#landing">صفحة الهبوط</a></li>
+      <li><a href="#auth">1. الترحيب والتسجيل</a></li>
+      <li><a href="#onboarding">2. إعداد الخطة</a></li>
+      <li><a href="#dashboard">3. الرئيسية والجدول</a></li>
+      <li><a href="#session">4. الجلسة والاختبار</a></li>
+      <li><a href="#settings">5. الإعدادات والتقدم</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <!-- ==================== صفحة الهبوط (Landing Page) ==================== -->
+  <section id="landing">
+    <header>
+      <div><strong>📘 رفيق</strong></div>
+      <div>
+        <span>المميزات</span> |
+        <span>كيف يعمل</span> |
+        <span>الأسئلة الشائعة</span>
+      </div>
+      <a href="#auth"><button type="button">ابدأ الآن</button></a>
+    </header>
+
+    <div>
+      <h1>خطوة صغيرة كل يوم، تخلّيك أقرب لهدفك.</h1>
+      <p>تطبيق ذكي يساعد طلاب الثانوية والجامعة على تنظيم مذاكرتهم بخطة شخصية مرنة تتحدث تلقائياً حسب مواعيد امتحاناتك ونتائج اختباراتك القصيرة.</p>
+      <div>
+        <a href="#onboarding"><button type="button">أنشئ خطتك مجاناً</button></a>
+        <a href="#dashboard"><button type="button">استكشف التطبيق</button></a>
+      </div>
+
+      <div>
+        <p><strong>رفيق — خطة اليوم</strong></p>
+        <p>إنجاز اليوم: 65%</p>
+        <progress value="65" max="100">65%</progress>
+        <div>
+          <p><strong>رياضيات - التفاضل</strong><br>4:00 م - 4:45 م • أولوية عالية</p>
+        </div>
+        <div>
+          <p><strong>فيزياء - الكهرباء</strong><br>6:00 م - 6:45 م</p>
+        </div>
+        <button type="button">ابدأ الجلسة الأولى</button>
+      </div>
+    </div>
+
+    <div>
+      <h3>كل اللي تحتاجه في مكان واحد</h3>
+      <p>مصمم خصيصاً ليربط جدولك الدراسي ومواعيد امتحاناتك بمستوى تحصيلك الفعلي</p>
+      <div>
+        <div>
+          <h4>خطة تناسب وقتك</h4>
+          <p>أدخل محاضراتك ودروسك وساعات فراغك، وسيوزع رفيق المذاكرة جلساتك تلقائياً دون تعارض.</p>
+        </div>
+        <div>
+          <h4>تركيز وقتك صح</h4>
+          <p>ترتيب ذكي للمواد حسب قرب الامتحان وأهمية الموضوعات لضمان أعلى استفادة.</p>
+        </div>
+        <div>
+          <h4>شوف مجهودك بيكبر</h4>
+          <p>اختبارات قصيرة بعد كل جلسة لتحديد نقاط الضعف وتحديث جدول المراجعة تلقائياً.</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3>من أول خطوة.. لأول إنجاز</h3>
+      <ol>
+        <li>
+          <h4>عرّفنا على دراستك</h4>
+          <p>اختر مرحلتك الدراسية، موادك، ومواعيد امتحاناتك.</p>
+        </li>
+        <li>
+          <h4>اختار وقتك</h4>
+          <p>حدد الساعات المتاحة للمذاكرة والأيام المناسبة لك.</p>
+        </li>
+        <li>
+          <h4>ابدأ وخليك مستمر</h4>
+          <p>ذاكر مع المؤقت، حل الاختبار السريع، وتابع تقدمك.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div>
+      <h3>مساحة لتجارب الطلاب</h3>
+      <div>
+        <blockquote>
+          <p>"أكتر حاجة ساعدتني إن الخطة بتتعدل لوحدها لو أجلت جلسة أو نقصت في كويز المراجعة."</p>
+          <footer>— سارة، طالبة ثانوية عامة</footer>
+        </blockquote>
+        <blockquote>
+          <p>"ربط جدول المحاضرات والسكاشن بمواعيد الميدتيرم وفر عليا توتر كبير جداً."</p>
+          <footer>— أحمد، كلية الهندسة</footer>
+        </blockquote>
+        <blockquote>
+          <p>"الاختبار السريع بعد الـ 25 دقيقة بيخليني أتأكد إني فهمت الدرس بجد."</p>
+          <footer>— مريم، كلية الصيدلة</footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div>
+      <h3>أسئلة ممكن تكون في بالك</h3>
+      <p>إجابات سريعة حول طريقة عمل رفيق المذاكرة</p>
+      <details>
+        <summary>رفيق بيفرق إيه عن قائمة المهام العادية؟</summary>
+        <p>قائمة المهام تحفظ ما تريد إنجازه فقط، أما رفيق المذاكرة فيرتب الأولويات حسب قرب الامتحان ويعدل الخطة بناءً على نتائج اختباراتك القصيرة.</p>
+      </details>
+      <details>
+        <summary>هل رفيق مناسب لطلاب الثانوية والجامعة؟</summary>
+        <p>نعم، يدعم جداول المدرسة والدروس للثانوية، وجداول المحاضرات والسكاشن والمعامل للجامعة.</p>
+      </details>
+      <details>
+        <summary>أقدر أعدّل في الخطة أو أؤجل جلسة؟</summary>
+        <p>نعم، يمكنك تعديل مدة أو موضوع أي جلسة أو تأجيلها لوقت لاحق بسهولة.</p>
+      </details>
+      <details>
+        <summary>لو سبت يوم، خطتي بتبوظ؟</summary>
+        <p>لا، يعيد التطبيق توزيع الجلسات الفائتة على الأيام المتاحة دون إرباك جدولك.</p>
+      </details>
+    </div>
+
+    <div>
+      <h3>جاهز لأول خطوة؟</h3>
+      <p>كل يوم مذاكرة منظم بيقربك خطوة أكيدة لهدفك الدراسي</p>
+      <a href="#onboarding"><button type="button">ابدأ خطتك الآن</button></a>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- ==================== شاشات التطبيق ==================== -->
+  <main>
+
+    <!-- المجموعة 1: البداية وتسجيل الدخول -->
+    <section id="auth">
+      <h2>المجموعة الأولى: شاشات البداية والتسجيل</h2>
+
+      <!-- شاشة 1: Splash -->
+      <article>
+        <div>📖</div>
+        <h3>رفيق</h3>
+        <p>رفيقك الذكي لتنظيم المذاكرة</p>
+      </article>
+      <hr>
+
+      <!-- شاشة 2: أهلاً بك في رفيق -->
+      <article>
+        <div><span>رفيق</span></div>
+        <p>أهلاً بك في رفيق</p>
+        <h3>خطوة صغيرة كل يوم.. تخليك أقرب لهدفك</h3>
+        <div>
+          <strong>🎯 خطة مذاكرة ذكية</strong>
+          <p>تتوزع حسب جدولك وقرب امتحاناتك</p>
+        </div>
+        <div>
+          <strong>📝 اختبارات قصيرة بعد كل جلسة</strong>
+          <p>تحدد نقاط ضعفك وتحدّث خطتك تلقائياً</p>
+        </div>
+        <button type="button">ابدأ رحلتك</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 3: خلينا نبدأ -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>خلينا نبدأ</h3>
+        <p>كل يوم مذاكرة منظم بيفرق</p>
+        <div>
+          <div>✨📚</div>
+          <strong>كل اللي محتاجه في مكان واحد</strong>
+          <p>جدولك، امتحاناتك، ومراجعاتك في خطة واحدة</p>
+        </div>
+        <button type="button">إنشاء حساب</button>
+        <button type="button">تسجيل الدخول</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 4: إنشاء حساب -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>إنشاء حساب</h3>
+        <p>سجّل بياناتك لحفظ خطتك الدراسية</p>
+        <form>
+          <div>
+            <label>الاسم بالكامل</label><br>
+            <input type="text" value="سارة محمد">
+          </div>
+          <div>
+            <label>البريد الإلكتروني</label><br>
+            <input type="email" value="sara@example.com">
+          </div>
+          <div>
+            <label>كلمة المرور</label><br>
+            <input type="password" value="12345678">
+          </div>
+          <button type="submit">إنشاء حساب</button>
+        </form>
+      </article>
+      <hr>
+
+      <!-- شاشة 5: تسجيل الدخول -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>تسجيل الدخول</h3>
+        <p>أهلاً بعودتك لمتابعة خطتك</p>
+        <form>
+          <div>
+            <label>البريد الإلكتروني</label><br>
+            <input type="email" value="sara@example.com">
+          </div>
+          <div>
+            <label>كلمة المرور</label><br>
+            <input type="password" value="12345678">
+          </div>
+          <div><a href="#">نسيت كلمة المرور؟</a></div>
+          <button type="submit">دخول</button>
+        </form>
+      </article>
+      <hr>
+
+      <!-- شاشة 6: استعادة كلمة المرور -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>استعادة كلمة المرور</h3>
+        <p>أدخل بريدك الإلكتروني لإرسال رابط الاستعادة</p>
+        <div>🔐</div>
+        <form>
+          <div>
+            <label>البريد الإلكتروني</label><br>
+            <input type="email" value="sara@example.com">
+          </div>
+          <button type="submit">إرسال رابط الاستعادة</button>
+        </form>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- المجموعة 2: إعداد الخطة الدراسية -->
+    <section id="onboarding">
+      <h2>المجموعة الثانية: إعداد البيانات والجدول والامتحانات</h2>
+
+      <!-- شاشة 7: اختيار المرحلة الدراسية -->
+      <article>
+        <div><span>رفيق</span> | <span>خطوة 1 من 5</span></div>
+        <h3>اختار مرحلتك الدراسية</h3>
+        <p>عشان نظبطلك شكل الجدول المناسب ليك</p>
+        <div>
+          <label>
+            <input type="radio" name="stage" checked>
+            <strong>🏫 الثانوية</strong> — مواعيد المدرسة والدروس الخصوصية
+          </label>
+        </div>
+        <div>
+          <label>
+            <input type="radio" name="stage">
+            <strong>🎓 الجامعة</strong> — جدول المحاضرات والسكاشن والمعامل
+          </label>
+        </div>
+        <button type="button">متابعة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 8: بيانات دراستك -->
+      <article>
+        <div><span>رفيق</span> | <span>خطوة 2 من 5</span></div>
+        <h3>بيانات دراستك</h3>
+        <p>أضف صفك الدراسي وموادك الحالية</p>
+        <div>
+          <label>المدرسة أو الكلية</label><br>
+          <input type="text" value="الثانوية العامة - علمي علوم">
+        </div>
+        <div>
+          <p><strong>موادك الدراسية:</strong></p>
+          <label><input type="checkbox" checked> رياضيات</label>
+          <label><input type="checkbox" checked> فيزياء</label>
+          <label><input type="checkbox" checked> كيمياء</label>
+          <label><input type="checkbox"> أحياء</label>
+          <label><input type="checkbox"> لغة عربية</label>
+        </div>
+        <button type="button">+ إضافة مادة</button>
+        <button type="button">حفظ المواد</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 9: جدول المدرسة والدروس -->
+      <article>
+        <div><span>رفيق</span> | <span>خطوة 3 من 5</span></div>
+        <h3>جدول المدرسة والدروس</h3>
+        <p>أضف مواعيدك الثابتة لتجنبها في خطة المذاكرة</p>
+        <div>
+          <button type="button">المدرسة</button>
+          <button type="button">الدروس</button>
+        </div>
+        <div>
+          <strong>المدرسة</strong>
+          <p>الأحد - الخميس • 8:00 ص - 2:00 م</p>
+        </div>
+        <div>
+          <strong>درس رياضيات</strong>
+          <p>السبت والثلاثاء • 4:00 م</p>
+        </div>
+        <button type="button">+ إضافة موعد مدرسة أو درس</button>
+        <button type="button">حفظ الجدول</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 10: جدول الجامعة -->
+      <article>
+        <div><span>رفيق</span> | <span>جدول الجامعة</span></div>
+        <h3>جدول الجامعة</h3>
+        <p>أضف المحاضرات والسكاشن والمعامل</p>
+        <div>
+          <button type="button">محاضرة</button>
+          <button type="button">سكشن</button>
+          <button type="button">معمل</button>
+        </div>
+        <div>
+          <strong>محاضرة كيمياء عضوية</strong>
+          <p>الأحد • 10:00 ص - مدرج 2</p>
+        </div>
+        <div>
+          <strong>سكشن رياضيات</strong>
+          <p>الإثنين • 12:00 م - قاعة 4</p>
+        </div>
+        <button type="button">+ إضافة محاضرة أو سكشن</button>
+        <button type="button">حفظ الجدول</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 11: امتحاناتك القادمة -->
+      <article>
+        <div><span>رفيق</span> | <span>خطوة 4 من 5</span></div>
+        <h3>امتحاناتك القادمة</h3>
+        <p>مواعيد الامتحانات بتحدد أولوية توزيع المواد</p>
+        <div>
+          <strong>رياضيات</strong> (بعد 4 أيام)
+          <p>التفاضل والتكامل • 28 نوفمبر</p>
+        </div>
+        <div>
+          <strong>فيزياء</strong> (بعد 10 أيام)
+          <p>الكهربية • 4 ديسمبر</p>
+        </div>
+        <button type="button">+ إضافة امتحان وموعد مادة</button>
+        <button type="button">متابعة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 12: قد إيه تقدر تذاكر؟ -->
+      <article>
+        <div><span>رفيق</span> | <span>خطوة 5 من 5</span></div>
+        <h3>قد إيه تقدر تذاكر؟</h3>
+        <p>حدد وقت المذاكرة اليومي والأيام المناسبة لك</p>
+        <div>
+          <p><strong>وقت المذاكرة اليومي:</strong></p>
+          <label><input type="radio" name="hours"> ساعة</label>
+          <label><input type="radio" name="hours" checked> ساعتين</label>
+          <label><input type="radio" name="hours"> 3 ساعات</label>
+          <label><input type="radio" name="hours"> 4 ساعات</label>
+        </div>
+        <div>
+          <p><strong>الأيام المناسبة لك:</strong></p>
+          <label><input type="checkbox" checked> السبت</label>
+          <label><input type="checkbox" checked> الأحد</label>
+          <label><input type="checkbox" checked> الإثنين</label>
+          <label><input type="checkbox" checked> الثلاثاء</label>
+          <label><input type="checkbox" checked> الأربعاء</label>
+          <label><input type="checkbox"> الخميس</label>
+          <label><input type="checkbox"> الجمعة</label>
+        </div>
+        <button type="button">أنشئ خطتي</button>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- المجموعة 3: الرئيسية وإدارة الخطة -->
+    <section id="dashboard">
+      <h2>المجموعة الثالثة: الرئيسية والخطة الأسبوعية وتعديل الجلسات</h2>
+
+      <!-- شاشة 13: بنجهّز خطتك -->
+      <article>
+        <div><span>رفيق</span></div>
+        <h3>بنجهّز خطتك</h3>
+        <p>لحظات ونرتّبها سوا</p>
+        <div>⚙️📅</div>
+        <ul>
+          <li>✅ توزيع المواد على أيامك</li>
+          <li>✅ مراعاة الدروس والمحاضرات</li>
+          <li>⏳ تقديم المواد قبل امتحاناتها</li>
+        </ul>
+        <p>جاري توليد الخطة الذكية...</p>
+      </article>
+      <hr>
+
+      <!-- شاشة 14: الرئيسية / خطة اليوم -->
+      <article>
+        <div><span>رفيق</span> | <span>أهلاً، سارة 👋</span></div>
+        <div>
+          <p>إنجاز اليوم: <strong>65%</strong></p>
+          <progress value="65" max="100">65%</progress>
+        </div>
+        <h4>جلسات اليوم:</h4>
+        <div>
+          <strong>رياضيات - التفاضل</strong> (45 د)
+          <p>4:00 م - 4:45 م • امتحان قريب</p>
+        </div>
+        <div>
+          <strong>فيزياء - الكهرباء</strong> (45 د)
+          <p>6:00 م - 6:45 م</p>
+        </div>
+        <button type="button">ابدأ الجلسة الأولى</button>
+        <nav>
+          <span>[الرئيسية]</span> | <span>الخطة</span> | <span>التقدم</span> | <span>الإعدادات</span>
+        </nav>
+      </article>
+      <hr>
+
+      <!-- شاشة 15: الوقت محتاج تعديل -->
+      <article>
+        <div><span>رفيق</span> | <span>تنبيه</span></div>
+        <h3>الوقت محتاج تعديل</h3>
+        <p>ناقصك 4 ساعات قبل الامتحان</p>
+        <div>
+          <div>⚠️</div>
+          <p>المطلوب: <strong>10 ساعات</strong> | المتاح: <strong>6 ساعات</strong></p>
+        </div>
+        <div>
+          <strong>اقتراح رفيق:</strong>
+          <p>زود ساعة مذاكرة يومياً في أيام الفراغ لتغطية منهج الرياضيات قبل الامتحان.</p>
+        </div>
+        <button type="button">زيادة وقت المذاكرة</button>
+        <button type="button">ترتيب الأولويات</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 16: خطة مذاكرتك الأسبوعية -->
+      <article>
+        <div><span>رفيق</span> | <span>نوفمبر 2026</span></div>
+        <h3>خطة مذاكرتك</h3>
+        <p>أجندة الإثنين • اليوم المحدد</p>
+        <div>
+          <button type="button">س 1</button>
+          <button type="button">ح 2</button>
+          <button type="button"><strong>ن 3</strong></button>
+          <button type="button">ث 4</button>
+          <button type="button">ر 5</button>
+        </div>
+        <div>
+          <strong>رياضيات - قاعدة السلسلة</strong>
+          <p>4:00 م - 4:45 م • جلسة أساسية</p>
+        </div>
+        <div>
+          <strong>مراجعة كيمياء - الوحدة 2</strong>
+          <p>7:00 م - 7:30 م • مراجعة بناءً على الاختبار</p>
+        </div>
+        <nav>
+          <span>الرئيسية</span> | <span>[الخطة]</span> | <span>التقدم</span> | <span>الإعدادات</span>
+        </nav>
+      </article>
+      <hr>
+
+      <!-- شاشة 17: تعديل الجلسة -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">إلغاء</button></div>
+        <h3>تعديل الجلسة</h3>
+        <p>غير تفاصيل الجلسة بما يناسب يومك</p>
+        <form>
+          <div>
+            <label>المادة</label><br>
+            <input type="text" value="رياضيات">
+          </div>
+          <div>
+            <label>الموضوع</label><br>
+            <input type="text" value="قاعدة السلسلة">
+          </div>
+          <div>
+            <label>مدة الجلسة</label><br>
+            <input type="text" value="45 دقيقة">
+          </div>
+          <button type="submit">حفظ التعديلات</button>
+        </form>
+      </article>
+      <hr>
+
+      <!-- شاشة 18: تأجيل الجلسة -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>تأجيل الجلسة</h3>
+        <p>هننقل الجلسة تلقائياً لأقرب وقت متاح</p>
+        <div>
+          <strong>الموعد الحالي:</strong> الإثنين، 4:00 م (رياضيات)
+        </div>
+        <form>
+          <div>
+            <label>اليوم الجديد</label><br>
+            <input type="text" value="الثلاثاء - 24 نوفمبر">
+          </div>
+          <div>
+            <label>الوقت الجديد</label><br>
+            <input type="text" value="6:30 مساءً">
+          </div>
+          <button type="submit">تأكيد التأجيل</button>
+        </form>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- المجموعة 4: جلسة المذاكرة والاختبار السريع -->
+    <section id="session">
+      <h2>المجموعة الرابعة: مؤقت المذاكرة والاستراحة والاختبار السريع</h2>
+
+      <!-- شاشة 19: جلسة المذاكرة (Timer) -->
+      <article>
+        <div><span>رفيق</span> | <span>رياضيات</span></div>
+        <h3>جلسة المذاكرة</h3>
+        <p>قاعدة السلسلة</p>
+        <div>
+          <h2>25:00</h2>
+          <small>دقيقة متبقية</small>
+        </div>
+        <div>
+          <button type="button"><strong>25 د</strong></button>
+          <button type="button">45 د</button>
+          <button type="button">60 د</button>
+        </div>
+        <button type="button">إنهاء الجلسة وبدء الاختبار</button>
+        <button type="button">استراحة قصيرة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 20: استراحة قصيرة -->
+      <article>
+        <div><span>رفيق</span> | <span>استراحة</span></div>
+        <h3>استراحة قصيرة</h3>
+        <p>خد نفس عميق وريّح عينك شوية</p>
+        <div>
+          <h2>15:00</h2>
+          <small>وقت الراحة</small>
+        </div>
+        <ul>
+          <li>اشرب كوباية مية 💧</li>
+          <li>ابعد عن شاشة الموبايل</li>
+        </ul>
+        <button type="button">استكمال المذاكرة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 21: تنهي الجلسة بدري؟ -->
+      <article>
+        <div><span>رفيق</span></div>
+        <h3>تنهي الجلسة بدري؟</h3>
+        <p>لسه فاضل وقت في الجلسة</p>
+        <div>
+          <p>انقضت: <strong>15 د</strong> | متبقية: <strong>10 د</strong></p>
+        </div>
+        <p>لو خلصت مذاكرة الجزء ده، تقدر تدخل الاختبار السريع دلوقتي.</p>
+        <button type="button">حفظ الوقت وبدء الاختبار</button>
+        <button type="button">الرجوع للجلسة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 22: اختبار سريع -->
+      <article>
+        <div><span>رفيق</span> | <span>سؤال 3 من 5</span></div>
+        <h3>اختبار سريع</h3>
+        <p>لقياس مدى استيعابك للجلسة</p>
+        <div>
+          <p><strong>إذا كانت y = (2x + 1)³ فإن مشتقة الدالة تساوي:</strong></p>
+        </div>
+        <form>
+          <div><label><input type="radio" name="q3"> أ) 3(2x + 1)²</label></div>
+          <div><label><input type="radio" name="q3" checked> ب) 6(2x + 1)²</label></div>
+          <div><label><input type="radio" name="q3"> ج) 2(2x + 1)³</label></div>
+          <div><label><input type="radio" name="q3"> د) 6(2x + 1)</label></div>
+          <button type="submit">تأكيد الإجابة</button>
+        </form>
+      </article>
+      <hr>
+
+      <!-- شاشة 23: نتيجتك وتحديث الخطة -->
+      <article>
+        <div><span>رفيق</span></div>
+        <h3>نتيجتك وتحديث الخطة</h3>
+        <p>أداء ممتاز في التفاضل!</p>
+        <div>⭐</div>
+        <h2>4 من 5</h2>
+        <div>
+          <strong>التحديث التلقائي للخطة:</strong>
+          <p>تمت جدولة مراجعة سريعة (15 دقيقة) على "مشتقة الدوال المركبة" يوم الخميس القادم.</p>
+        </div>
+        <button type="button">العودة للرئيسية</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 24: مفيش اتصال حالياً (Offline) -->
+      <article>
+        <div><span>رفيق</span></div>
+        <h3>مفيش اتصال حالياً</h3>
+        <p>أنت غير متصل بالإنترنت</p>
+        <div>📡</div>
+        <p>تقدر تكمل جلسات المذاكرة المحفوظة عادي، وهنزامن تقدمك أول ما الإنترنت يرجع.</p>
+        <button type="button">إعادة المحاولة</button>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- المجموعة 5: الإعدادات والتقدم -->
+    <section id="settings">
+      <h2>المجموعة الخامسة: الإعدادات والتقدم وإدارة الحساب</h2>
+
+      <!-- شاشة 25: تقدمك وإحصائياتك -->
+      <article>
+        <div><span>رفيق</span> | <span>هذا الأسبوع</span></div>
+        <h3>كل يوم بتتقدم</h3>
+        <p>إجمالي ساعات المذاكرة: 14 ساعة</p>
+        <div>
+          <p>السبت: <progress value="40" max="100"></progress></p>
+          <p>الأحد: <progress value="70" max="100"></progress></p>
+          <p>الإثنين: <progress value="55" max="100"></progress></p>
+          <p>الثلاثاء: <progress value="90" max="100"></progress></p>
+          <p>الأربعاء: <progress value="60" max="100"></progress></p>
+          <p>الخميس: <progress value="80" max="100"></progress></p>
+        </div>
+        <div>
+          <strong>متوسط درجات الاختبارات: 86%</strong>
+          <p>أعلى مادة إنجازاً: الرياضيات</p>
+        </div>
+        <nav>
+          <span>الرئيسية</span> | <span>الخطة</span> | <span>[التقدم]</span> | <span>الإعدادات</span>
+        </nav>
+      </article>
+      <hr>
+
+      <!-- شاشة 26: الإعدادات -->
+      <article>
+        <div><span>رفيق</span></div>
+        <h3>الإعدادات</h3>
+        <div>
+          <strong>سارة محمد</strong> — الثانوية العامة
+        </div>
+        <ul>
+          <li>إعدادات الدراسة والمواد</li>
+          <li>إدارة الجداول والامتحانات</li>
+          <li>التنبيهات والتذكيرات</li>
+          <li>لغة التطبيق (العربية)</li>
+          <li>تسجيل الخروج</li>
+        </ul>
+        <nav>
+          <span>الرئيسية</span> | <span>الخطة</span> | <span>التقدم</span> | <span>[الإعدادات]</span>
+        </nav>
+      </article>
+      <hr>
+
+      <!-- شاشة 27: التنبيهات -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>التنبيهات</h3>
+        <p>تحكم في تذكيرات المذاكرة والاستراحة</p>
+        <div><label><input type="checkbox" checked> تذكير قبل الجلسة بـ 10 دقائق</label></div>
+        <div><label><input type="checkbox" checked> تنبيه انتهاء وقت الجلسة</label></div>
+        <div><label><input type="checkbox" checked> تذكير بالمراجعة اليومية</label></div>
+        <div><label><input type="checkbox"> إشعارات تحفيزية</label></div>
+        <button type="button">حفظ التغييرات</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 28: لغة التطبيق -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>لغة التطبيق</h3>
+        <p>اختر اللغة المفضلة لواجهة رفيق</p>
+        <div><label><input type="radio" name="lang" checked> العربية</label></div>
+        <div><label><input type="radio" name="lang"> English</label></div>
+        <button type="button">حفظ اللغة</button>
+      </article>
+      <hr>
+
+      <!-- شاشة 29: الحساب والأمان -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">رجوع</button></div>
+        <h3>الحساب والأمان</h3>
+        <form>
+          <div>
+            <label>البريد الإلكتروني</label><br>
+            <input type="email" value="sara@example.com">
+          </div>
+          <div>
+            <label>كلمة المرور الحالية</label><br>
+            <input type="password" value="12345678">
+          </div>
+          <div>
+            <label>كلمة المرور الجديدة</label><br>
+            <input type="password" placeholder="أدخل كلمة مرور جديدة">
+          </div>
+          <button type="submit">حفظ التغييرات</button>
+        </form>
+      </article>
+      <hr>
+
+      <!-- شاشة 30: تسجيل الخروج -->
+      <article>
+        <div><span>رفيق</span> | <button type="button">إلغاء</button></div>
+        <h3>تسجيل الخروج؟</h3>
+        <p>تقدمك وخطتك محفوظين في حسابك</p>
+        <div>🚪</div>
+        <p>تقدر ترجع تسجل دخول في أي وقت وهتلاقي جدولك ونتايج اختباراتك زي ما هي.</p>
+        <button type="button">تأكيد تسجيل الخروج</button>
+        <button type="button">البقاء في التطبيق</button>
+      </article>
+    </section>
+
+  </main>
+
+  <hr>
+  <h3>Engineer Manal</h3>
+  <h3>Engineer Ibrahem</h3>
+  <h3>Engineer Walaa</h3>
+
+</body>
+</html>
